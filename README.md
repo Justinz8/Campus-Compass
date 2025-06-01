@@ -16,15 +16,20 @@ Follow these steps to get the frontend running locally:
 
 1. **Clone the repository**  
    ```bash
-   https://github.com/Justinz8/Campus-Compass-Front-End.git
+   git clone https://github.com/Justinz8/Campus-Compass.git
    ```
 
-2. **Install dependencies**  
+2. **Navigate to Front End Directory**  
+   ```bash
+   cd FrontEnd
+   ```
+
+3. **Install dependencies**  
    ```bash
    npm install
    ```
 
-3. **Start the development server**  
+4. **Start the development server**  
    ```bash
    npm run dev
    ```
@@ -37,20 +42,25 @@ Follow these steps to get the backend running locally:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/Justinz8/Campus-Compass-Back-End.git
+   git clone https://github.com/Justinz8/Campus-Compass.git
    ```
 
-2. **Install dependencies**  
+2. **Navigate to Back End Directory**  
+   ```bash
+   cd BackEnd
+   ```
+
+3. **Install dependencies**  
    ```bash
    npm install
    ```
    
-3. **Navigate to the server directory**  
+4. **Navigate to the server directory**  
    ```bash
    cd server
    ```
 
-4. **Start the development server**  
+5. **Start the development server**  
    ```bash
    node index.js
    ```
