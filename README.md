@@ -1,4 +1,4 @@
-# Campus Compass – Frontend
+# Campus Compass
 
 Welcome to the frontend repository for the **Campus Compass** project.
 
@@ -10,7 +10,7 @@ Campus Compass is a platform designed to help University of Toronto students dis
 
 ---
 
-## Project Setup
+## Project Setup - Front End
 
 Follow these steps to get the frontend running locally:
 
@@ -29,7 +29,31 @@ Follow these steps to get the frontend running locally:
    npm run dev
    ```
 
-> **Important:** Make sure the backend server is also running. You can find the backend setup instructions [here](https://github.com/Justinz8/Campus-Compass-Back-End).
+> **Important:** Make sure the backend server is also running.
+
+## Project Setup - Back End
+
+Follow these steps to get the backend running locally:
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Justinz8/Campus-Compass-Back-End.git
+   ```
+
+2. **Install dependencies**  
+   ```bash
+   npm install
+   ```
+   
+3. **Navigate to the server directory**  
+   ```bash
+   cd server
+   ```
+
+4. **Start the development server**  
+   ```bash
+   node index.js
+   ```
 
 ---
 
