@@ -5,6 +5,8 @@ import { onAuthStateChanged } from '@firebase/auth';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import VerificationForm from './pages/VerificationForm';
+
 
 function App() {
   
@@ -50,6 +52,8 @@ function App() {
           <Route path="/register" element={
             <ProtectedRoute reroutePath={"/"} LgnTrigger={1} target={<Register />} />
           } />
+          <Route path="/verify" element={<VerificationForm />} />
+
         </Routes>
       </BrowserRouter>
 
